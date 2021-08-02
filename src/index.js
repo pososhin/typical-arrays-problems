@@ -13,4 +13,4 @@ exports.avg = function avg(array) {
     if (!array || !array.length) return 0;
     return array.reduce((a, b) => (a + b)) / array.length;
 }
-git 
+
